@@ -32,8 +32,8 @@ public class DrawActivity extends AppCompatActivity {
         if(view == findViewById(R.id.redButton)){
             strategyDrawableView.setDrawColor(Color.RED);
         }
-        else if(view == findViewById(R.id.whiteButton)){
-            strategyDrawableView.setDrawColor(Color.WHITE);
+        else if(view == findViewById(R.id.blackButton)){
+            strategyDrawableView.setDrawColor(Color.BLACK);
         }
         else if(view == findViewById(R.id.greenButton)){
             strategyDrawableView.setDrawColor(Color.GREEN);
